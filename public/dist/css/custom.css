@@ -1,0 +1,25 @@
+ .nav-item a:hover{
+     text-decoration: none !important;
+ }
+
+ .user img{
+     height: 33.33px;
+ }
+.user-body{
+    margin-bottom: 20px;
+    display: ruby;
+}
+
+.brand-image{
+    opacity: .8;
+}
+
+.has-treeview ul{
+    background-color: rgb(40,40,45) !important;
+}
+
+#calender-add-form-close{
+    position: absolute;
+    top: 20px;
+    right:20px;
+}
