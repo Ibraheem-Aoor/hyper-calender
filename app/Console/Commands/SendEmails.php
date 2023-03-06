@@ -48,6 +48,7 @@ class SendEmails extends Command
         $this->events();
         $this->reminder();
         $this->task();
+        Mail::to('ibraheem.alaoor@hotmail.com')->send(new TaskMail(Task::first()));
     }
 
     public function events()
