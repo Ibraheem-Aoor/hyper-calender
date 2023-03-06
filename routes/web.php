@@ -21,9 +21,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('cover');
-});
+Route::redirect('/', 'login');
 
 /** User Routes start */
 Route::get('user/profile',[UserController::class, 'profile'])->name('user.profile');
