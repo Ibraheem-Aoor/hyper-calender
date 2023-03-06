@@ -8,6 +8,9 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\EmailSettingController;
 use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\SystemSettingController;
+use App\Mail\TaskMail;
+use App\Models\Task;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -82,3 +85,9 @@ Route::patch('setting/systemSetting/update',[SystemSettingController::class, 'up
 Route::patch('setting/favicon/update',[SystemSettingController::class, 'favicon'])->name('favicon.update');
 Route::patch('setting/logo/update',[SystemSettingController::class, 'logo'])->name('logo.update');
 //Route for System Setting ends here
+
+
+Route::get('mail-test' , function(){
+    Mail::to('ibraheem.alaoor@hotmail.com')->send(new TaskMail(Task::first()));
+    dd('Done');
+});
