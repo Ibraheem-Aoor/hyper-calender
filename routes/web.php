@@ -67,23 +67,23 @@ Route::post('calender-add',[DashboardController::class,'create'])->name('calenda
 Route::post('calender-event',[DashboardController::class,'edit'])->name('calendar-event');
 
 //route for email setting starts here
-Route::get('setting/email',[EmailSettingController::class, 'index'])->name('setting.email');
-Route::post('setting/email/store',[EmailSettingController::class, 'store'])->name('email.store');
-Route::post('setting/email/edit',[EmailSettingController::class, 'edit'])->name('email.edit');
-Route::post('setting/email/update',[EmailSettingController::class, 'update'])->name('email.update');
-Route::delete('setting/email/delete/{id}',[EmailSettingController::class, 'destroy'])->name('email.delete');
-//route for email setting ends here
+// Route::get('setting/email',[EmailSettingController::class, 'index'])->name('setting.email');
+// Route::post('setting/email/store',[EmailSettingController::class, 'store'])->name('email.store');
+// Route::post('setting/email/edit',[EmailSettingController::class, 'edit'])->name('email.edit');
+// Route::post('setting/email/update',[EmailSettingController::class, 'update'])->name('email.update');
+// Route::delete('setting/email/delete/{id}',[EmailSettingController::class, 'destroy'])->name('email.delete');
+// //route for email setting ends here
 
-//Route for Company Basic Info start here
-Route::get('setting/basicInfo',[CompanyController::class, 'index'])->name('basicInfo');
-Route::patch('setting/basicInfo/update',[CompanyController::class, 'update'])->name('basicInfo.update');
-//Route for Company Basic Info ends here
+// //Route for Company Basic Info start here
+// Route::get('setting/basicInfo',[CompanyController::class, 'index'])->name('basicInfo');
+// Route::patch('setting/basicInfo/update',[CompanyController::class, 'update'])->name('basicInfo.update');
+// //Route for Company Basic Info ends here
 
-//Route for System Setting start here
-Route::get('setting/systemSetting',[SystemSettingController::class, 'index'])->name('systemSetting');
-Route::patch('setting/systemSetting/update',[SystemSettingController::class, 'update'])->name('systemSetting.update');
-Route::patch('setting/favicon/update',[SystemSettingController::class, 'favicon'])->name('favicon.update');
-Route::patch('setting/logo/update',[SystemSettingController::class, 'logo'])->name('logo.update');
+// //Route for System Setting start here
+// Route::get('setting/systemSetting',[SystemSettingController::class, 'index'])->name('systemSetting');
+// Route::patch('setting/systemSetting/update',[SystemSettingController::class, 'update'])->name('systemSetting.update');
+// Route::patch('setting/favicon/update',[SystemSettingController::class, 'favicon'])->name('favicon.update');
+// Route::patch('setting/logo/update',[SystemSettingController::class, 'logo'])->name('logo.update');
 //Route for System Setting ends here
 
 

@@ -50,7 +50,7 @@
                 </a>
             </li>
 
-            <li class="nav-item has-treeview {{ isActive(['setting*']) }}">
+            {{-- <li class="nav-item has-treeview {{ isActive(['setting*']) }}">
                 <a href="#" class="nav-link {{ isActive(['setting*']) }}">
                     <i class="fas fa-shapes"></i>
                     <p>
@@ -79,7 +79,7 @@
                     </li>
 
                 </ul>
-            </li>
+            </li> --}}
 
         </ul>
     </nav>
