@@ -23,6 +23,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::redirect('/', 'login');
 
+
 /** User Routes start */
 Route::get('user/profile',[UserController::class, 'profile'])->name('user.profile');
 Route::get('user/update',[UserController::class, 'update'])->name('user.update');
