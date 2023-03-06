@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Reminder from Panjika</title>
+    <title>Reminder from {{sysConfig('title')}}</title>
     <style>
         body{
             background-color: #edf2f7;
@@ -58,7 +58,7 @@
 
 <table>
     <tr>
-        <td class="text-center"><h2>PANJIKA</h2></td>
+        <td class="text-center"><h2>{{sysConfig('title')}}</h2></td>
     </tr>
     <tr>
         <td>
@@ -75,7 +75,7 @@
         </td>
     </tr>
     <tr>
-        <td class="pl-1"><p>{{ __('Thanks') }} <br> Panjika</p></td>
+        <td class="pl-1"><p>{{ __('Thanks') }} <br> {{sysConfig('title')}}</p></td>
     </tr>
 </table>
 

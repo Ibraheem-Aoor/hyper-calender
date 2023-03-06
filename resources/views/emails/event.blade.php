@@ -60,7 +60,7 @@
 
 <table>
     <tr>
-        <td class="text-center"><h2>PANJIKA</h2></td>
+        <td class="text-center"><h2>{{sysConfig('title')}}</h2></td>
     </tr>
     <tr>
         <td>

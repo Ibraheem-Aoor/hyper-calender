@@ -1,6 +1,6 @@
 <!-- Brand Logo -->
 <a href="{{url('dashboard')}}" class="brand-link">
-    <img src="{{ asset('assets/img/logos') }}/{{ sysConfig('logo') }}" alt="Panjika Logo" class="brand-image img-circle elevation-3">
+    <img src="{{ asset('assets/img/logos') }}/{{ sysConfig('logo') }}" alt="hyper-calendar Logo" class="brand-image img-circle elevation-3">
     <span class="brand-text font-weight-light">{{ sysConfig('title') }}</span>
 </a>
 <!-- Sidebar -->
