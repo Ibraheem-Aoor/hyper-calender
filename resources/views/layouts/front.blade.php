@@ -43,7 +43,7 @@
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mb-auto mb-lg-5">
         <div>
-            <h3 class="float-md-start mb-0">PANJIKA</h3>
+            <h3 class="float-md-start mb-0">Hyper Calendar</h3>
             <nav class="nav nav-masthead justify-content-center float-md-end">
                 @auth()
                     <a class="nav-link" href="{{ url('dashboard') }}">{{ __('Dashboard') }}</a>
@@ -67,7 +67,7 @@
   @yield('content')
 
     <footer class="mt-auto text-white-50">
-        <p>Panjika Calendar by <a href="https://smartrahat.com" class="text-white" target="_blank">smartrahat</a></p>
+        <p>Hyper Calendar by <a href="https://hyper-sys.com" class="text-white" target="_blank">Hyper System</a></p>
     </footer>
 </div>
 

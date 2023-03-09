@@ -35,7 +35,7 @@ class TaskMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Task reminder from Panjika')
+        return $this->subject('Task reminder from Hyper Calendar')
             ->view('emails.task')
             ->with([
                 'task' => $this->task,

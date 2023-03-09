@@ -35,7 +35,7 @@ class EventMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Event reminder from Panjika')
+        return $this->subject('Event reminder from Hyper Calendar')
             ->view('emails.event')
             ->with([
                 'event' => $this->event,

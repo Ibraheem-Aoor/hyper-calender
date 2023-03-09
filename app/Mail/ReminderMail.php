@@ -35,7 +35,7 @@ class ReminderMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Reminder from Panjika')
+        return $this->subject('Reminder from Hyper Calendar')
             ->view('emails.reminder')
             ->with([
                 'reminder' => $this->reminder

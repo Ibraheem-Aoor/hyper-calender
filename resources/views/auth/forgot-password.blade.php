@@ -3,7 +3,7 @@
 @section('content')
     <div class="login-box">
         <div class="login-logo">
-            <b>PANJIKA</b>
+            <b>Hyper Calendear</b>
         </div>
         <!-- /.login-logo -->
         <div class="card">

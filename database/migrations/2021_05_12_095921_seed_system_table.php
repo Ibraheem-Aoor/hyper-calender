@@ -18,7 +18,7 @@ class SeedSystemTable extends Migration
             $data = [
                 'logo' => 'logo.png',
                 'favicon' => 'favicon.ico',
-                'title' => 'Panjika',
+                'title' => 'Hyper Calendear',
                 'date_format' => 'Y-m-d',
                 'time_format' => 'h:i:s',
                 'language' => 'en',
