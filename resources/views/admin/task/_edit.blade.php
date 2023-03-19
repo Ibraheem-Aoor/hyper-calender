@@ -10,13 +10,13 @@
         <div class="col-md-12">
             <div class="form-group">
                 {{ Form::label('title', __('Title'),['class'=>'col-form-label col-form-label-sm']) }}
-                {{ Form::text('title', null, ['placeholder' => 'Enter Title','class'=>'form-control form-control-sm']) }}
+                {{ Form::text('title', null, ['placeholder' => 'Enter Title','class'=>'form-control form-control-sm' , 'required' => 'required']) }}
             </div>
         </div>
         <div class="col-md-6">
             <div class="form-group">
                 {{ Form::label('date', __('Date'),['class'=>'col-form-label col-form-label-sm']) }}
-                {{ Form::text('date', null, ['placeholder' => 'Select Date','class'=>'form-control form-control-sm datePicker']) }}
+                {{ Form::text('date', null, ['placeholder' => 'Select Date','class'=>'form-control form-control-sm datePicker'  , 'required' => 'required']) }}
             </div>
         </div>
         <div class="col-md-6">

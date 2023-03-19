@@ -67,7 +67,7 @@
                                             <td class="">
                                                 Guest: {{ $event->guests }}<br>
                                                 Location: {{ $event->locations }}<br>
-                                                {{ $event->description }}
+                                                {{ Str::limit($event->description , 50 , '...') }}
                                             </td>
                                             <td class="text-center">
                                                 {{ Form::open(['route'=>['event.delete',$event->id],'method'=>'post','onsubmit'=>'return confirmDelete()']) }}

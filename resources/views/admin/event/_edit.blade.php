@@ -10,15 +10,15 @@
         <div class="col-md-6">
             <div class="form-group">
                 {{ Form::label('title', __('Title'),['class'=>'col-form-label col-form-label-sm']) }}
-                {{ Form::text('title', null, ['placeholder' => 'Enter Title','class'=>'form-control form-control-sm']) }}
+                {{ Form::text('title', null, ['placeholder' => 'Enter Title','class'=>'form-control form-control-sm'  , 'required' => 'required']) }}
             </div>
             <div class="form-group">
                 {{ Form::label('start_date', __('Start Date'),['class'=>'col-form-label col-form-label-sm']) }}
-                {{ Form::text('start_date', null, ['placeholder' => 'Select Start Date','class'=>'form-control form-control-sm datePicker']) }}
+                {{ Form::text('start_date', null, ['placeholder' => 'Select Start Date','class'=>'form-control form-control-sm datePicker'  , 'required' => 'required']) }}
             </div>
             <div class="form-group">
                 {{ Form::label('end_date', __('End Date'),['class'=>'col-form-label col-form-label-sm']) }}
-                {{ Form::text('end_date', null, ['placeholder' => 'Enter End Date','class'=>'form-control form-control-sm datePicker']) }}
+                {{ Form::text('end_date', null, ['placeholder' => 'Enter End Date','class'=>'form-control form-control-sm datePicker'  , 'required' => 'required']) }}
             </div>
             <div class="form-group">
                 {{ Form::label('guests', __('Guests'),['class'=>'col-form-label col-form-label-sm']) }}
